@@ -5,15 +5,38 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Sales
 {
+    using Views;
+    using ViewModels;
+    using Helpers;
+    using Newtonsoft.Json;
+    using Common.Models;
+
     public partial class App : Application
     {
+        public static NavigationPage Navigator { get; internal set; }
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
-        }
+            var mainViewModel = MainViewModel.GetInstance();
 
+            if (Settings.IsRemembered)
+            {
+                if (!string.IsNullOrEmpty(Settings.UserASP))
+                {
+                    mainViewModel.UserASP = JsonConvert.DeserializeObject<MyUserASP>(Settings.UserASP);
+                }
+
+                mainViewModel.Products = new ProductsViewModel();
+                this.MainPage = new MasterPage();
+            }
+            else
+            {
+                mainViewModel.Login = new LoginViewModel();
+                this.MainPage = new NavigationPage(new LoginPage());
+            }
+        }
         protected override void OnStart()
         {
             // Handle when your app starts
