@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              mc:Ignorable="d"
              xmlns:i18n="clr-namespace:Sales.Helpers"
              x:Class="Sales.Views.MenuPage"
@@ -12,9 +13,12 @@
     <ContentPage.Content>
         <StackLayout
             Padding="5">
-            <Image 
-                Source="{Binding UserImageFullPath}">
-            </Image>
+            <controls:CircleImage
+                Source="{Binding UserImageFullPath}"
+                Aspect="AspectFill"
+                WidthRequest="200"
+                HeightRequest="200">
+            </controls:CircleImage>
             <Label
                 FontAttributes="Bold"
                 FontSize="Large"
