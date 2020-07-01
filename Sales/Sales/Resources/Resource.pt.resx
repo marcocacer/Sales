@@ -198,109 +198,121 @@
   <data name="IsAvailable" xml:space="preserve">
     <value>, está disponível.</value>
   </data>
-	<data name="Search" xml:space="preserve">
+  <data name="Search" xml:space="preserve">
     <value>Pesquisar</value>
   </data>
-	<data name="Login" xml:space="preserve">
+  <data name="Login" xml:space="preserve">
     <value>Logon</value>
   </data>
-	<data name="EMail" xml:space="preserve">
+  <data name="EMail" xml:space="preserve">
     <value>Email</value>
   </data>
-	<data name="EmailPlaceHolder" xml:space="preserve">
+  <data name="EmailPlaceHolder" xml:space="preserve">
     <value>Insira o seu e-mail</value>
   </data>
-	<data name="Password" xml:space="preserve">
+  <data name="Password" xml:space="preserve">
     <value>Senha</value>
   </data>
-	<data name="PasswordPlaceHolder" xml:space="preserve">
+  <data name="PasswordPlaceHolder" xml:space="preserve">
     <value>Digite sua senha</value>
   </data>
-	<data name="Rememberme" xml:space="preserve">
+  <data name="Rememberme" xml:space="preserve">
     <value>Lembrar-me</value>
   </data>
-	<data name="Forgot" xml:space="preserve">
+  <data name="Forgot" xml:space="preserve">
     <value>Esqueceu-se da palavra passe?</value>
   </data>
-	<data name="Register" xml:space="preserve">
+  <data name="Register" xml:space="preserve">
     <value>Novo utilizador</value>
   </data>
-	<data name="EmailValidation" xml:space="preserve">
+  <data name="EmailValidation" xml:space="preserve">
     <value>Informe seu email</value>
   </data>
-	<data name="PasswordValidation" xml:space="preserve">
+  <data name="PasswordValidation" xml:space="preserve">
     <value>Precisa de inserir a sua palavra passe</value>
   </data>
-	<data name="SomethingWrong" xml:space="preserve">
+  <data name="SomethingWrong" xml:space="preserve">
     <value>O e-mail ou senha ñao sao validos</value>
   </data>
-	<data name="Menu" xml:space="preserve">
+  <data name="Menu" xml:space="preserve">
     <value>Menu</value>
   </data>
-	<data name="About" xml:space="preserve">
+  <data name="About" xml:space="preserve">
     <value>Sobre</value>
   </data>
-	<data name="Setup" xml:space="preserve">
+  <data name="Setup" xml:space="preserve">
     <value>Configuracao</value>
   </data>
-	<data name="Exit" xml:space="preserve">
+  <data name="Exit" xml:space="preserve">
     <value>Fechar sessao</value>
   </data>
-	<data name="NoProductsMessage" xml:space="preserve">
+  <data name="NoProductsMessage" xml:space="preserve">
     <value>Não há informações sobre produtos disponíveis!</value>
   </data>
-	<data name="FirstName" xml:space="preserve">
+  <data name="FirstName" xml:space="preserve">
     <value>Nome</value>
   </data>
-	<data name="LastName" xml:space="preserve">
+  <data name="LastName" xml:space="preserve">
     <value>Sobrenome</value>
   </data>
-	<data name="Phone" xml:space="preserve">
+  <data name="Phone" xml:space="preserve">
     <value>Telefone</value>
   </data>
-	<data name="Address" xml:space="preserve">
+  <data name="Address" xml:space="preserve">
     <value>Endereço:</value>
   </data>
-	<data name="FirstNamePlaceHolder" xml:space="preserve">
+  <data name="FirstNamePlaceHolder" xml:space="preserve">
     <value>Insira seu nome</value>
   </data>
-	<data name="LastNamePlaceHolder" xml:space="preserve">
+  <data name="LastNamePlaceHolder" xml:space="preserve">
     <value>Insira seu sobrenome</value>
   </data>
-	<data name="PhonePlaceHolder" xml:space="preserve">
+  <data name="PhonePlaceHolder" xml:space="preserve">
     <value>Insira o seu número de telefone</value>
   </data>
-	<data name="AddressPlaceHolder" xml:space="preserve">
+  <data name="AddressPlaceHolder" xml:space="preserve">
     <value>Insira o seu endereço...</value>
   </data>
-	<data name="PasswordConfirm" xml:space="preserve">
+  <data name="PasswordConfirm" xml:space="preserve">
     <value>Confirmar</value>
   </data>
-	<data name="PasswordConfirmPlaceHolder" xml:space="preserve">
+  <data name="PasswordConfirmPlaceHolder" xml:space="preserve">
     <value>Digite sua senha para confirmar</value>
   </data>
-	<data name="FirstNameError" xml:space="preserve">
+  <data name="FirstNameError" xml:space="preserve">
     <value>- Digite um nome</value>
   </data>
-	<data name="LastNameError" xml:space="preserve">
+  <data name="LastNameError" xml:space="preserve">
     <value>- Digite um sobrenome</value>
   </data>
-	<data name="EMailError" xml:space="preserve">
+  <data name="EMailError" xml:space="preserve">
     <value>Você deve inserir um endereço de email válido.</value>
   </data>
-	<data name="PhoneError" xml:space="preserve">
+  <data name="PhoneError" xml:space="preserve">
     <value>Você deve digitar um número de telefone.</value>
   </data>
-	<data name="PasswordError" xml:space="preserve">
+  <data name="PasswordError" xml:space="preserve">
     <value>Você deve digitar uma senha. Em leats 6 personagens!</value>
   </data>
-	<data name="PasswordConfirmError" xml:space="preserve">
+  <data name="PasswordConfirmError" xml:space="preserve">
     <value>Tem de introduzir uma palavra-passe</value>
   </data>
-	<data name="PasswordsNo_Match" xml:space="preserve">
+  <data name="PasswordsNo_Match" xml:space="preserve">
     <value>A senha e a confirmação devem ser iguais!</value>
   </data>
-	<data name="RegisterConfirmation" xml:space="preserve">
+  <data name="RegisterConfirmation" xml:space="preserve">
     <value>O usuário foi criado com sucesso. Agora você pode entrar com o e-mail e a senha atribuída.!</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categorias</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CategoryPlaceholder" xml:space="preserve">
+    <value>Selecionar categoria.</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>Selecione uma Categoria.</value>
   </data>
 </root>

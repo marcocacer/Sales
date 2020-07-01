@@ -14,6 +14,22 @@
             <x:String x:Key="UrlPrefix">/api</x:String>
             <x:String x:Key="UrlProductsController">/Products</x:String>
             <x:String x:Key="UrlUsersController">/Users</x:String>
+            <!-- FACEBOOK-->
+            <x:String x:Key="FacebookAppiID">123456789</x:String>
+            <x:String x:Key="FacebookAuthURL">https//www.facebook.com/dialog/oauth/</x:String>
+            <x:String x:Key="FacebookRedirectURL">https//www.facebook.com/connect/login_success.html</x:String>
+            <x:String x:Key="FacebookScope">email</x:String>
+            <!-- INSTAGRAM-->
+            <x:String x:Key="InstagramAppiID">123456789</x:String>
+            <x:String x:Key="InstagramAuthURL">https//www.api.instagram.com/oauth/authorize/</x:String>
+            <x:String x:Key="InstagramRedirectURL">https//www.instagram.com/</x:String>
+            <x:String x:Key="InstagramScope">basic</x:String>
+            <!-- TWITTER-->
+            <x:String x:Key="TwitterConsumeKey">123456789</x:String>
+            <x:String x:Key="TwitterConsumeSecret">123456789</x:String>
+            <x:String x:Key="TwitterREquestTokenURL">https//api.twitter.com/oauth/authorize</x:String>
+            <x:String x:Key="Url">http//www.maurocr.software.com</x:String>
+            <x:String x:Key="TwitterProfileInfoURL">http//api.twitter.com/1.1/account/verify_credentials.json</x:String>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

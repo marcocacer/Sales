@@ -1,6 +1,7 @@
 ﻿
 namespace Sales.Common.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
@@ -9,6 +10,8 @@ namespace Sales.Common.Models
     {
         [Key]
         public int ProductId { get; set; }
+
+        public int CategoryId { get; set; }
 
         [Required]
         [StringLength(50)]
@@ -29,6 +32,13 @@ namespace Sales.Common.Models
         [Display(Name = "Publish On")]
         [DataType(DataType.Date)]
         public DateTime PublishOn { get; set; }
+
+        [Required]
+        [StringLength(128)]
+        public string UserId { get; set; }
+
+        [JsonIgnore]
+        public virtual Category Category { get; set; }
 
         [NotMapped]
         public byte[] ImageArray { get; set; }
