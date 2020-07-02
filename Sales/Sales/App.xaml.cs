@@ -28,7 +28,7 @@ namespace Sales
                     mainViewModel.UserASP = JsonConvert.DeserializeObject<MyUserASP>(Settings.UserASP);
                 }
 
-                mainViewModel.Products = new ProductsViewModel();
+                mainViewModel.Categories = new CategoriesViewModel();
                 this.MainPage = new MasterPage();
             }
             else

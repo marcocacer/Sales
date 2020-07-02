@@ -14,6 +14,8 @@
             <x:String x:Key="UrlPrefix">/api</x:String>
             <x:String x:Key="UrlProductsController">/Products</x:String>
             <x:String x:Key="UrlUsersController">/Users</x:String>
+            <x:String x:Key="UrlCategoriesController">/Categories</x:String>
+            
             <!-- FACEBOOK-->
             <x:String x:Key="FacebookAppiID">123456789</x:String>
             <x:String x:Key="FacebookAuthURL">https//www.facebook.com/dialog/oauth/</x:String>
