@@ -37,6 +37,10 @@ namespace Sales.Common.Models
         [StringLength(128)]
         public string UserId { get; set; }
 
+        public double Latitude { get; set; }
+
+        public double Longitude { get; set; }
+
         [JsonIgnore]
         public virtual Category Category { get; set; }
 
